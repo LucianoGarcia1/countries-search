@@ -1,0 +1,12 @@
+.fadeLeft{
+    transform: translatex(-20px);
+    opacity: 0;
+    animation: fadeLeft .3s forwards;
+}
+
+@keyframes fadeLeft {
+    to{
+        transform: initial;
+        opacity: initial;
+    }
+}

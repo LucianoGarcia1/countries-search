@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, .root{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $gray;
+}
+
+body.themes{
+    transition: all .5s;
+    background-color: $black;
+}

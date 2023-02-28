@@ -1,0 +1,25 @@
+.NotFound{
+    width: 100%;
+    @include flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+
+
+    h1{
+        font-size: $big;
+        color: var(--black);
+        font-weight: 600;
+    }
+
+    p{
+        font-size: $medium;
+        color: var(--blue);
+        font-weight: 500;
+    }
+
+    a{
+        font-size: $small;
+        color: var(--black);
+        margin-top: 1rem;
+    }
+}
